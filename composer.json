@@ -1,5 +1,5 @@
 {
-  "name": "psi/tags-widget",
+  "name": "imi/tags-widget",
   "description": "Contao Widget for managing Tags",
   "keywords": ["tags", "widget"],
   "type": "contao-module",
@@ -10,14 +10,18 @@
       "email": "wio@psitrax.de.de",
       "homepage": "http://4wardmedia.de",
       "role": "Developer"
+    },
+    {
+      "name": "iMi digital GmbH",
+      "homepage": "https://www.imi-digital.de",
+      "role": "Maintainer"
     }
   ],
   "support": {
-    "email": "wio@psitrax.de.de",
-    "issues": "https://github.com/psi-4ward/tagsWidget/issues?direction=desc&sort=created&state=open",
+    "issues": "https://github.com/iMi-digital/tagsWidget/issues",
     "forum": "https://community.contao.org/de/forumdisplay.php?110-4ward",
     "irc": "irc://irc.freenode.org/contao.de",
-    "source": "https://github.com/psi-4ward/tagsWidget"
+    "source": "https://github.com/iMi-digital/tagsWidget"
   },
   "require": {
     "php": ">=5.3",
@@ -25,7 +29,8 @@
     "contao-community-alliance/composer-plugin": "^2.4 || ^3.0"
   },
   "replace": {
-    "contao-legacy/tagswidget": "self.version"
+    "contao-legacy/tagswidget": "self.version",
+    "psi/tags-widget": "self.version"
   },
   "extra": {
     "contao": {
